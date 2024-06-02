@@ -1,0 +1,89 @@
+html, body{
+    margin: 0;
+    font-family: "Poetsen One", sans-serif;
+    
+}
+nav{
+    background-color: #ffa500;
+    display: flex;
+    justify-content: flex-end;
+    gap:40px;
+    height: 40px;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+    
+}
+a:hover{
+    background-color: wheat;
+   
+}
+.teme-members{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.About-us img{
+    width: 100%;
+
+
+}
+.child{
+    padding:10px;
+    width: 20%;
+}
+.child img{
+    width: 170px;
+    object-fit: cover;
+    height: 170px;
+    border-radius: 50%;
+}
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.child p {
+    text-align: center;
+}
+.img{
+    position: relative;
+}
+.img-p{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: aqua;
+    opacity: 50%;
+    display: none;
+}
+.img:hover .img-p{
+    display: block;
+}
+footer{
+    background-color: #ffa500;
+    color: black;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
